@@ -1,0 +1,10 @@
+---
+
+- hosts: webservers
+
+  become: yes
+  remote_user: ubuntu
+
+  tasks:
+    - name: install apache2
+      apt: name=apache2 state=latest
