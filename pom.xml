@@ -42,7 +42,8 @@
                 <version>2.19.1</version>
                 <configuration>
                    <testFailureIgnore>true</testFailureIgnore>
-                </configuration>>
+                </configuration>
+            </plugin>    
                 <executions>
                     <execution>
                         <id>unit-tests</id>
