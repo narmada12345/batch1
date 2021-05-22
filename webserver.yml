@@ -10,7 +10,7 @@
       apt: name=apache2 state=latest
       
     - name: copy the files 
-      template: src: /var/lib/jenkins/workspace/testpipe/index.html.j2 dest: /var/www/html/index.html
+      template: src=/var/lib/jenkins/workspace/testpipe/index.html.j2 dest=/var/www/html/index.html
       notify:
         - Restart apache
         
