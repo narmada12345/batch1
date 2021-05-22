@@ -11,7 +11,8 @@ pipeline {
         stage('install') {
             steps {
               // Get some code from a GitHub repository
-              sh 'sudo ansibl-plybook webserver.yml --private-key=/home/ubuntu/.ssh/id_rsa'
+              sh 'sudo sudo ansible-playbook webserver.yml --private-key=/home/ubuntu/.ssh/id_rsa
+'
             }
         }
   
