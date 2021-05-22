@@ -14,8 +14,8 @@
       notify:
         - Restart apache
         
-    handlers:
-      - name: restert apapche2
-          service: apache2
-          state: restarted
+  handlers:
+    - name: restert apapche2
+        service: apache2
+        state: restarted
      
