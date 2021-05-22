@@ -16,5 +16,4 @@
         
   handlers:
     - name: restert apapche2
-          service: apache2
-          state: restarted
+      service: name=apache2 state=restarted
